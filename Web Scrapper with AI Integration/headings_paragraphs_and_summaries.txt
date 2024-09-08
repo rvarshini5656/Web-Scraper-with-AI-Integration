@@ -1,0 +1,684 @@
+**Java Basic Syntax**
+**Overview of Java**
+**Basics of Java**
+**Input/Output in Java**
+**Flow Control in Java**
+**Operators in Java**
+**Strings in Java**
+**Arrays in Java**
+**OOPS in Java**
+**Inheritance in Java**
+**Abstraction in Java**
+**Encapsulation in Java**
+**Polymorphism in Java**
+**Constructors in Java**
+**Methods in Java**
+**Interfaces in Java**
+**Wrapper Classes in Java**
+**Keywords in Java**
+**Access Modifiers in Java**
+**Memory Allocation in Java**
+**Classes of Java**
+**Packages in Java**
+**Exception Handling in Java**
+**Multithreading in Java**
+**Synchronization in Java**
+**File Handling in Java**
+**Java Regex**
+**Java IO**
+**Java Networking**
+**JDBC - Java Database Connectivity**
+**Conclusion**
+**What kind of Experience do you want to share?**
+**Basic Terminologies in Java**
+**Syntax:**
+**PleaseLoginto comment...**
+**Similar Reads**
+
+Paragraph: Java program is an object-oriented programming language, that means java is the collection of objects, and these objects communicate through method calls to each other to work together. Here is a brief discussion on theClasses and Objects,Method,Instance variables, syntax, and semantics of Java.
+Summary: Java program is an object-oriented programming language, that means java is the collection of objects, and these objects communicate through method calls to each other to work together. Here is a brief discussion on theClasses and Objects,Method,Instance variables, syntax, and semantics of Java.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 1. Class:The class is a blueprint (plan) of the instance of a class (object). It can be defined as a logical template that share common properties and methods.
+Summary: 1. Class:The class is a blueprint (plan) of the instance of a class (object). It can be defined as a logical template that share common properties and methods.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 2.  Object: The object is an instance of a class. It is an entity that has behavior and state.
+Summary: 2.  Object: The object is an instance of a class. It is an entity that has behavior and state.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 3.  Method: The behavior of an object is the method.
+Summary: 3.  Method: The behavior of an object is the method.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 4. Instance variables: Every object has its own unique set of instance variables. The state of an object is generally created by the values that are assigned to these instance variables.
+Summary: 4. Instance variables: Every object has its own unique set of instance variables. The state of an object is generally created by the values that are assigned to these instance variables.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Example:Steps to compile and run a java program in a console
+Summary: Example:Steps to compile and run a java program in a console
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Note:When the class is public, the name of the file has to be the class name.
+Summary: Note:When the class is public, the name of the file has to be the class name.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: To gain a deeper understanding of these concepts and how to implement them in Java programming, consider exploring more detailed resources orcomprehensive Java coursethat cover these fundamentals in depth, helping you to solidify your Java skills.
+Summary: To gain a deeper understanding of these concepts and how to implement them in Java programming, consider exploring more detailed resources orcomprehensive Java coursethat cover these fundamentals in depth, helping you to solidify your Java skills.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 1. Comments in Java
+Summary: 1. Comments in Java
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: There are three types of comments in Java.
+Summary: There are three types of comments in Java.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: i.Single line Comment
+Summary: i.Single line Comment
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: ii.Multi-line Comment
+Summary: ii.Multi-line Comment
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: iii.Documentation Comment. Also called adoc comment.
+Summary: iii.Documentation Comment. Also called adoc comment.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 2. Source File Name
+Summary: 2. Source File Name
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: The name of a source file should exactly match the public class name with the extension of .java. The name of the file can be a different name if it does not have any public class. Assume you have a public classGFG.
+Summary: The name of a source file should exactly match the public class name with the extension of .java. The name of the file can be a different name if it does not have any public class. Assume you have a public classGFG.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 3. Case Sensitivity
+Summary: 3. Case Sensitivity
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Java is a case-sensitive language, which means that the identifiersAB, Ab, aB,  andabare different in Java.
+Summary: Java is a case-sensitive language, which means that the identifiersAB, Ab, aB,  andabare different in Java.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 4. Class Names
+Summary: 4. Class Names
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: i.The first letter of the class should be in Uppercase (lowercase is allowed but discouraged).
+Summary: i.The first letter of the class should be in Uppercase (lowercase is allowed but discouraged).
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: ii.If several words are used to form the name of the class, each inner word’s first letter should be in Uppercase. Underscores are allowed, but not recommended. Also allowed are numbers and currency symbols, although the latter are also discouraged because they are used for a special purpose (for inner and anonymous classes).
+Summary: ii.If several words are used to form the name of the class, each inner word’s first letter should be in Uppercase. Underscores are allowed, but not recommended. Also allowed are numbers and currency symbols, although the latter are also discouraged because they are used for a special purpose (for inner and anonymous classes).
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 5. public static void main(String [] args)
+Summary: 5. public static void main(String [] args)
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: The method main() is the main entry point into a Java program; this is where the processing starts. Also allowed is the signaturepublic static void main(String… args).
+Summary: The method main() is the main entry point into a Java program; this is where the processing starts. Also allowed is the signaturepublic static void main(String… args).
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 6. Method Names
+Summary: 6. Method Names
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: i.All the method names should start with a lowercase letter (uppercase is also allowed but lowercase is recommended).
+Summary: i.All the method names should start with a lowercase letter (uppercase is also allowed but lowercase is recommended).
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: ii.If several words are used to form the name of the method, then each first letter of the inner word should be in Uppercase. Underscores are allowed, but not recommended. Also allowed are digits and currency symbols.
+Summary: ii.If several words are used to form the name of the method, then each first letter of the inner word should be in Uppercase. Underscores are allowed, but not recommended. Also allowed are digits and currency symbols.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 7. Identifiers in java
+Summary: 7. Identifiers in java
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Identifiers are the names of local variables, instance and class variables, and labels, but also the names for classes, packages, modules and methods. All Unicode characters are valid, not just the ASCII subset.
+Summary: Identifiers are the names of local variables, instance and class variables, and labels, but also the names for classes, packages, modules and methods. All Unicode characters are valid, not just the ASCII subset.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: i.All identifiers can begin with a letter, a currency symbol or an underscore (_). According to the convention, a letter should be lower case for variables.
+Summary: i.All identifiers can begin with a letter, a currency symbol or an underscore (_). According to the convention, a letter should be lower case for variables.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: ii.The first character of identifiers can be followed by any combination of letters, digits, currency symbols and the underscore. The underscore is not recommended for the names of variables. Constants (static final attributes and enums) should be in all Uppercase letters.
+Summary: ii.The first character of identifiers can be followed by any combination of letters, digits, currency symbols and the underscore. The underscore is not recommended for the names of variables. Constants (static final attributes and enums) should be in all Uppercase letters.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: iii.Most importantly identifiers are case-sensitive.
+Summary: iii.Most importantly identifiers are case-sensitive.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: iv.A keyword cannot be used as an identifier since it is a reserved word and has some special meaning.
+Summary: iv.A keyword cannot be used as an identifier since it is a reserved word and has some special meaning.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 8. White spaces in Java
+Summary: 8. White spaces in Java
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: A line containing only white spaces, possibly with the comment, is known as a blank line, and the Java compiler totally ignores it.
+Summary: A line containing only white spaces, possibly with the comment, is known as a blank line, and the Java compiler totally ignores it.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 9. Access Modifiers:These modifiers control the scope of class and methods.
+Summary: 9. Access Modifiers:These modifiers control the scope of class and methods.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 10. Understanding Access Modifiers:
+Summary: 10. Understanding Access Modifiers:
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: No
+Summary: No
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: No
+Summary: No
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: No
+Summary: No
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: No
+Summary: No
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: No
+Summary: No
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: No
+Summary: No
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Yes
+Summary: Yes
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 11. Java Keywords
+Summary: 11. Java Keywords
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Keywords or Reserved wordsare the words in a language that are used for some internal process or represent some predefined actions. These words are therefore not allowed to use as variable names or objects.
+Summary: Keywords or Reserved wordsare the words in a language that are used for some internal process or represent some predefined actions. These words are therefore not allowed to use as variable names or objects.
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: abstract
+Summary: abstract
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: assert
+Summary: assert
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: boolean
+Summary: boolean
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: break
+Summary: break
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: byte
+Summary: byte
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: case
+Summary: case
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: catch
+Summary: catch
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: char
+Summary: char
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: class
+Summary: class
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: const
+Summary: const
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: continue
+Summary: continue
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: default
+Summary: default
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: do
+Summary: do
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: double
+Summary: double
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: else
+Summary: else
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: enum
+Summary: enum
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: extends
+Summary: extends
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: final
+Summary: final
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: finally
+Summary: finally
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: float
+Summary: float
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: for
+Summary: for
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: goto
+Summary: goto
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: if
+Summary: if
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: implements
+Summary: implements
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: import
+Summary: import
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: instanceof
+Summary: instanceof
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: int
+Summary: int
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: interface
+Summary: interface
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: long
+Summary: long
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: native
+Summary: native
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: new
+Summary: new
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: package
+Summary: package
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: private
+Summary: private
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: protected
+Summary: protected
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: public
+Summary: public
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: return
+Summary: return
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: short
+Summary: short
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: static
+Summary: static
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: strictfp
+Summary: strictfp
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: super
+Summary: super
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: switch
+Summary: switch
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: synchronized
+Summary: synchronized
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: this
+Summary: this
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: throw
+Summary: throw
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: throws
+Summary: throws
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: transient
+Summary: transient
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: try
+Summary: try
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: void
+Summary: void
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: volatile
+Summary: volatile
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: while
+Summary: while
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 
+Summary: 
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 
+Summary: 
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: Mastering Java’s basic syntax is essential for any aspiring programmer. It lays the foundation for more advanced concepts and skills. To further enhance your understanding and proficiency, consider enrolling in ourJava Course, which offers comprehensive coverage and practical exercises
+Summary: Mastering Java’s basic syntax is essential for any aspiring programmer. It lays the foundation for more advanced concepts and skills. To further enhance your understanding and proficiency, consider enrolling in ourJava Course, which offers comprehensive coverage and practical exercises
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 
+Summary: 
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
+
+Paragraph: 
+Summary: 
+Additional Information: No additional information available.
+
+--------------------------------------------------------------------------------
